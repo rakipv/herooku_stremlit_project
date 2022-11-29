@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>full screen iframe</title>
+    <style type="text/css">
+        html {
+            overflow: auto;
+        }
+
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F5c360c8f.databases.neo4j.io&_ga=2.160532789.980640535.1669303345-1236140054.1667535849"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            width="111100%"
+            height="111100%"
+            scrolling="auto">
+  </iframe>
+
+</body>
+
+</html>
